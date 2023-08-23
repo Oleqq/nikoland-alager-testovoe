@@ -1,0 +1,333 @@
+/* ------------------------------------------------------------------- import fonts -----------------------------------------------------------------*/
+
+@font-face { 
+    font-family: "MuseoSansCyrl100";
+    src: url("../assets/font/MuseoSansCyrl100.woff") format("woff");
+}
+@font-face { 
+    font-family: "MuseoSansCyrl300";
+    src: url("../assets/font/MuseoSansCyrl300.woff") format("woff");
+}
+@font-face { 
+    font-family: "MuseoSansCyrl500";
+    src: url("../assets/font/MuseoSansCyrl500.woff") format("woff");
+}
+@font-face { 
+    font-family: "MuseoSansCyrl700";
+    src: url("../assets/font/MuseoSansCyrl700.woff") format("woff");
+}
+@font-face { 
+    font-family: "MuseoSansCyrl900";
+    src: url("../assets/font/MuseoSansCyrl900.woff") format("woff");
+}
+
+/* ------------------------------------------------------------------- fonts imported -----------------------------------------------------------------*/
+
+/* ------------------------------------------------------------------- typography -----------------------------------------------------------------*/
+
+:root {
+    --white: #fff;
+    --hover-color: #FF3047;
+    --accent-color:#C91226;
+
+    
+}
+
+.cta-button > a {
+    color: #FF3047;
+    font-family: MuseoSansCyrl700;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    
+}
+
+.cta-button-mobile > a {
+    color: #FF3047;
+    font-family: MuseoSansCyrl700;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    
+}
+
+.section__title {
+    color: #202020;
+	font-family: MuseoSansCyrl900;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.5px;
+}
+
+.section__title-secondary {  
+	color: #FFF;
+	font-family: MuseoSansCyrl900;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.5px;
+}
+
+
+.news__card-title {
+    color: #202020;
+	font-family: MuseoSansCyrl700;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+}
+
+.news__card-subtitle {
+    color: #626262;
+    font-family: MuseoSansCyrl100;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.news__card-date {
+    color: #626262;
+    font-family: MuseoSansCyrl100;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.news__card-img > span {
+	color: #fff;
+    font-family: MuseoSansCyrl500;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+
+
+
+
+.solution__items {  
+
+}
+
+.solution__items-single {  
+
+}
+
+.solution__items-img {  
+
+}
+
+.solutions__items-subtitle {  
+    color: #FFF;
+    font-family: MuseoSansCyrl100;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 30px;
+}
+
+.solution__subtitle { 
+    color: #FFF;
+    font-family: MuseoSansCyrl100;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+.solution__subtitle > span { 
+    color: #FFF;
+    font-family: MuseoSansCyrl500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+
+
+
+
+.technologies__subtitle {
+    text-align: center;
+    color: #626262;
+    text-align: center;
+    font-family: MuseoSansCyrl300;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    transition: 0.1s ease-in;
+}
+
+.technologies__paragraph-aspect {
+    color: #626262;
+    font-family: MuseoSansCyrl500;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.technologies__paragraph-title {
+    color: #202020;
+    font-family: MuseoSansCyrl700;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+.technologies__paragraph-subtitle {
+    color: #202020;
+    font-family: MuseoSansCyrl300;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+/* ------------------------------------------------------------------- solution section typography -----------------------------------------------------------------*/
+
+
+/* ------------------------------------------------------------------- steps (faq) section typography -----------------------------------------------------------------*/
+
+.faq__title {
+    color: #202020;
+    font-family: MuseoSansCyrl700;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+
+}
+
+.faq__answer {
+    color: #717171;
+    font-family: MuseoSansCyrl300;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.faq__number {
+    color: var(--white);
+    font-family: MuseoSansCyrl700;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    
+}
+
+/* ----------------------------------------------------------------------------- quiz (tell us) section typography -------------------------------------------------------------------- */
+
+.quiz__title {
+    color: #717171;
+    font-family: MuseoSansCyrl500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.quiz-step {
+    color: #717171;
+    font-family: MuseoSansCyrl500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.quiz__item-name {
+    color: #202020;
+    font-family: MuseoSansCyrl500;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+    
+
+/* ----------------------------------------------------------------------------- hero section typography -------------------------------------------------------------------- */
+
+.hero__nav-links {
+    color: #fff;
+    font-family: MuseoSansCyrl300;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+}
+
+.hero__since {
+    color: #fff;
+    font-family: MuseoSansCyrl300;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+}
+
+h1 {
+    color: #fff;
+    font-family: MuseoSansCyrl700 !important;
+    font-size: 50px !important;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    line-height: 70px !important;
+}
+
+.hero__subtitle {
+    color: #fff;
+    font-family: MuseoSansCyrl300;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    line-height: 40px;
+}
+
+.hero__download {
+    color: #fff;
+    font-family: MuseoSansCyrl500;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+}
+
+/* ----------------------------------------------------------------------------- footer section typography -------------------------------------------------------------------- */
+
+.footer {
+    color: #000;
+    font-family: MuseoSansCyrl500;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    text-align: center;
+}
+
+footer > a {
+    color: var(--accent-color);
+}
+
+footer > p > a {
+    color: var(--accent-color);
+}
